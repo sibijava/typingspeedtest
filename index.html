@@ -38,42 +38,46 @@
 
     <div>
       <div class="sub-heading">
-        <div>
-          <p>WPM:</p>
-          <p>0</p>
+        <div class="score-tracker-container right-border">
+          <p class="gray-text no-margin">WPM:</p>
+          <p class="sub-heading-values">0</p>
         </div>
-        <div>
-          <p>Accuracy:</p>
-          <p>100%</p>
+        <div class="score-tracker-container right-border">
+          <p class="gray-text no-margin">Accuracy:</p>
+          <p class="sub-heading-values">100%</p>
         </div>
-        <div>
-          <p>Time:</p>
-          <p>0:60</p>
+        <div class="score-tracker-container no-border">
+          <p class="gray-text no-margin">Time:</p>
+          <p class="sub-heading-values">0:60</p>
         </div>
       </div>
 
       <!-- <label for="difficulty">Difficulty:</label> -->
-      <select name="difficulty" id="difficulty">
-        <option value="easy">Easy</option>
-        <option value="medium">Medium</option>
-        <option value="hard">Hard</option>
-      </select>
-      <!-- <label for="mode">Mode:</label> -->
-      <select name="mode" id="mode">
-        <option value="timed">Timed (60s)</option>
-        <option value="passage">Passage</option>
-      </select>
+      <div class="difficulty-and-mode__container">
+        <select name="difficulty" id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <!-- <label for="mode">Mode:</label> -->
+        <select name="mode" id="mode">
+          <option value="timed">Timed (60s)</option>
+          <option value="passage">Passage</option>
+        </select>
+      </div>
 
       <!-- Passage -->
       <section>Passage</section>
-      <div>
-        <button>Start Typing Test</button>
-        <p>Or click the text and start typing</p>
+      <div class="start-typing-container">
+        <button class="start-typing-button">Start Typing Test</button>
+        <p class="start-typing-description">
+          Or click the text and start typing
+        </p>
       </div>
     </div>
 
     <!-- Test Complete Start -->
-    <div>
+    <!-- <div>
       <div class="test-complete-container">
         <img src="" alt="star icon" />
         <img src="" alt="green check mark" />
@@ -85,7 +89,7 @@
         <div>Characters:</div>
         <button>Go Again</button>
       </div>
-    </div>
+    </div> -->
 
     <!-- <div class="attribution">
       Challenge by
