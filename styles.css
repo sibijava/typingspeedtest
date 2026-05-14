@@ -1,5 +1,40 @@
 * {
   box-sizing: border-box;
+  background-color: hsl(0, 0%, 7%);
+  font-family: "Sora", sans-serif;
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 7%);
+}
+
+.personal-best-container {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.trophy-icon {
+  width: 32px;
+  height: 50px;
+}
+
+.gray-text {
+  color: hsl(240, 3%, 46%);
+}
+
+.score {
+  color: hsl(0, 0%, 100%);
+}
+
+.sub-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+  text-align: center;
 }
 
 .attribution {

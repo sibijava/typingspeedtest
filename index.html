@@ -11,21 +11,45 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Typing Speed Test</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
-    <img src="#" alt="game logo" />
-    <div class="personal-best-container">
-      <img src="#" alt="trophy icon" />
-      <p>Personal best: WPM</p>
+    <div class="header-container">
+      <img src="assets/images/logo-small.svg" alt="game logo" />
+      <div class="personal-best-container">
+        <img
+          src="assets/images/icon-personal-best.svg"
+          alt="trophy icon"
+          class="trophy-icon"
+        />
+        <p class="gray-text">Best:</p>
+        <p class="score">0 WPM</p>
+      </div>
     </div>
+
     <div>
-      <div>
-        <div>WPM:</div>
-        <div>Accuracy:</div>
-        <div>Time:</div>
+      <div class="sub-heading">
+        <div>
+          <p>WPM:</p>
+          <p>0</p>
+        </div>
+        <div>
+          <p>Accuracy:</p>
+          <p>100%</p>
+        </div>
+        <div>
+          <p>Time:</p>
+          <p>0:60</p>
+        </div>
       </div>
 
       <!-- <label for="difficulty">Difficulty:</label> -->
@@ -49,16 +73,18 @@
     </div>
 
     <!-- Test Complete Start -->
-    <div class="test-complete-container">
-      <img src="" alt="start icon" />
-      <img src="" alt="green check mark" />
-      <h3>Test Complete!</h3>
-      <div>Solid run. Keep pushing to beat your high score.</div>
+    <div>
+      <div class="test-complete-container">
+        <img src="" alt="star icon" />
+        <img src="" alt="green check mark" />
+        <h3>Test Complete!</h3>
+        <div>Solid run. Keep pushing to beat your high score.</div>
 
-      <div>WPM:</div>
-      <div>Accuracy:</div>
-      <div>Characters:</div>
-      <button>Go Again</button>
+        <div>WPM:</div>
+        <div>Accuracy:</div>
+        <div>Characters:</div>
+        <button>Go Again</button>
+      </div>
     </div>
 
     <!-- <div class="attribution">
