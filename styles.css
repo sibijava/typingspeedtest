@@ -73,19 +73,40 @@ select {
   border-color: hsl(240, 3%, 46%);
 }
 
+.passage-container {
+  position: relative;
+  height: 500px;
+}
+
 section {
   border-top: 1px solid hsl(240, 3%, 46%);
   padding: 1rem 0;
+  font-size: 1.5rem;
+  height: inherit;
+  /* background-color: hsl(240, 3%, 46%); */
+  position: absolute;
+  filter: blur(6px);
+  /* opacity: 0.1; */
+  /* z-index: 1; */
 }
 
 .start-typing-container {
   text-align: center;
+  height: inherit;
+  background-color: hsla(240, 3%, 46%, 0);
+  /* margin: 150px 10px; */
+  position: absolute;
+  inset: 35% 5%;
+
+  /* opacity: 0.2; */
+  /* z-index: 2; */
 }
 
 .start-typing-button {
   background-color: hsl(214, 100%, 55%);
   padding: 1rem;
   border-radius: 0.5rem;
+  border: none;
 }
 
 .attribution {
